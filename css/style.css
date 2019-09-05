@@ -585,7 +585,8 @@ ul {
 .banner_part {
   position: relative;
   overflow: hidden;
-  background-color: #f6717e;
+  background-image: url("../img/restaurant.png");
+  background-color: rgba(246, 113, 126, 0.9);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }

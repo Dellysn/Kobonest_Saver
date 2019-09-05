@@ -2,8 +2,8 @@
 .banner_part {
     position: relative;
     overflow: hidden;
-    // background-image: url(../img/banner_bg.png);
-    background-color: $btn_bg;
+    background-image: url("../img/restaurant.png");
+    background-color: rgba($btn_bg, 0.9);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
