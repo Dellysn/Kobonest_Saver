@@ -1,4 +1,49 @@
 /************about_us css start***************/
+.about-section {
+  .container {
+    h1 {
+      font-size: 3.6em;
+      padding: .6em auto;
+    }
+
+    .color {
+      color: $btn_bg;
+    }
+
+    h3 {
+      font-size: 2em;
+      padding: .9em auto;
+    }
+
+    p {
+      font-size: 1.5em;
+      line-height: 50px;
+    }
+  }
+
+
+  .about-icons {
+    ul {
+      display: flex;
+      margin-top: 2rem;
+
+      li {
+        i {
+          margin-right: 1.2rem;
+          color: $btn_bg;
+
+          &:hover {
+            // background-color: $btn_bg;
+            color: $black_color;
+            @include transition()
+          }
+        }
+      }
+    }
+  }
+
+}
+
 .about_us {
   position: relative;
   z-index: 99;
@@ -40,6 +85,7 @@
       line-height: 55px;
       margin-bottom: 28px;
       position: relative;
+
       @media #{$small_mobile} {
         font-size: 25px;
         margin-bottom: 10px;
@@ -86,9 +132,11 @@
 
     .btn_1 {
       margin-right: 30px;
+
       @media #{$tab} {
         margin-right: 10px;
       }
+
       @media #{$medium_device} {
         margin-right: 10px;
       }
@@ -97,38 +145,39 @@
 }
 
 @media #{$small_mobile} {
-  .learning_img{
+  .learning_img {
     margin-top: 30px;
   }
+
   .right_time {
-    .learning_img{
+    .learning_img {
       margin-top: 0;
     }
   }
 }
 
 @media #{$large_mobile} {
-  .learning_img{
+  .learning_img {
     margin-top: 40px;
   }
+
   .right_time {
-    
-    .learning_img{
+
+    .learning_img {
       margin-top: 0;
     }
   }
 }
 
 @media #{$tab} {
-  .right_time{
-    .about_us_text{
-      h2{
+  .right_time {
+    .about_us_text {
+      h2 {
         margin-top: 30px;
       }
     }
   }
-  
-}
-@media #{$medium_device} {
 
 }
+
+@media #{$medium_device} {}
