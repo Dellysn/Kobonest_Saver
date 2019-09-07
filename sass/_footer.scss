@@ -1,5 +1,31 @@
 /**********************footer part css*******************/
 .footer_part {
+	.app-buttons {
+		a {
+			height: 70px;
+			;
+			padding: 1rem;
+			margin-bottom: 1rem;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		@media #{$small_mobile} {
+			a {
+				height: 70px;
+				;
+				width: 50%;
+
+				img {
+					width: auto;
+				}
+			}
+		}
+
+	}
+
 	@include background("../img/footer_bg.png");
 	padding: 130px 0px 25px;
 

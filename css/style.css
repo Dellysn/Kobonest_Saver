@@ -1089,6 +1089,18 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 130px 0px 25px; }
+  .footer_part .app-buttons a {
+    height: 70px;
+    padding: 1rem;
+    margin-bottom: 1rem; }
+    .footer_part .app-buttons a img {
+      width: 100%; }
+  @media (max-width: 576px) {
+    .footer_part .app-buttons a {
+      height: 70px;
+      width: 50%; }
+      .footer_part .app-buttons a img {
+        width: auto; } }
   @media (max-width: 576px) {
     .footer_part {
       padding: 70px 0px 25px; } }
@@ -1437,6 +1449,18 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 130px 0px 25px; }
+  .footer_part .app-buttons a {
+    height: 70px;
+    padding: 1rem;
+    margin-bottom: 1rem; }
+    .footer_part .app-buttons a img {
+      width: 100%; }
+  @media (max-width: 576px) {
+    .footer_part .app-buttons a {
+      height: 70px;
+      width: 50%; }
+      .footer_part .app-buttons a img {
+        width: auto; } }
   @media (max-width: 576px) {
     .footer_part {
       padding: 70px 0px 25px; } }
